@@ -45,8 +45,8 @@ body{
     z-index: 0;
 }
 
-input[type=password]::-ms-reveal,
-input[type=password]::-ms-clear
+.password input[type=password]::-ms-reveal,
+.conformpassword input[type=password]::-ms-clear
 {
     display: none;
 }
