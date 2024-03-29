@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="accstyle.css" />
+    <script
+      src="https://kit.fontawesome.com/c31787acac.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="wrap" id="wrapping">
+      <h2>Sign Up/Register here</h2>
+      <div class="form" id="formwrap">
+        <form action="">
+          <div class="firstname" id="firstName">
+            <input
+              type="text"
+              id="firstNamevalue"
+              placeholder="Eg: John"
+              class="fistvalue"
+            />
+            <label for="">First Name</label>
+            <div id="firstnameerror"></div>
+          </div>
+          <div class="lastname" id="lastName">
+            <input
+              type="text"
+              id="lastNamevalue"
+              placeholder="Eg: Cena or Initial"
+            />
+            <label for="">Last Name</label>
+            <div id="lastnameerror"></div>
+          </div>
+          <div class="email" id="emailing">
+            <input
+              type="email"
+              name=""
+              id="emailaddress"
+              placeholder="abc123@gmail.com"
+            />
+            <label for="">Email</label>
+            <div id="emailerror"></div>
+          </div>
+          <div class="password" id="paswordoriginal">
+            <input
+              type="password"
+              name=""
+              id="oripass"
+              placeholder="Password"
+            />
+            <label for="">Password</label>
+            <i class="fa-regular fa-eye-slash" id="eyeslash"></i>
+            <i class="fa-regular fa-eye" id="eyeopen"></i>
+            <div id="passworderror"></div>
+          </div>
+          <div class="conformpassword" id="conformingpassword">
+            <input
+              type="password"
+              id="conformpass"
+              placeholder="Conform Password"
+            />
+            <label for="">Conform Password</label>
+            <div id="conformpassworderror"></div>
+          </div>
+          <div class="submit" id="submitform">
+            <button id="submitbtn">Submit</button>
+          </div>
+        </form>
+      </div>
+      <div class="already" id="accountexists">
+        <span>Already have an account? </span><a href="">sign in</a>
+      </div>
+    </div>
+
+    <script src="register.js"></script>
+  </body>
+</html>
