@@ -45,6 +45,13 @@ body{
     z-index: 0;
 }
 
+input[type=password]::-ms-reveal,
+input[type=password]::-ms-clear
+{
+    display: none;
+}
+
+
 .firstname label, .lastname label, .email label, .password label, .conformpassword label{
     position: absolute;
     left:20px;
